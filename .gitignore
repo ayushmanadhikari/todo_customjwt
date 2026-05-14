@@ -1,4 +1,5 @@
 /venv
 /accounts/migrations
 /task/migrations
+jwt_authenticate/migrations
 db.sqlite3
