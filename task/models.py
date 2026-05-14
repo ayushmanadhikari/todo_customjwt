@@ -32,13 +32,13 @@ class Task(models.Model):
 # category serializer
 class CategorySerializer(serializers.ModelSerializer):
     class Meta:
-        models = Category
+        model = Category
         fields = '__all__'
 
 
 # task serializer
 class TaskSerializer(serializers.ModelSerializer):
     class Meta:
-        models = Task
+        model = Task
         fields = '__all__'
     
